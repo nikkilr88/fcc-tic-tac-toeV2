@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+    <!--  Symbol Menu  -->
+    <div class="symbols">
+        <p> I want to be...</p>
+        <form id="symbols">
+            <input type="radio" name="symbol" value="x" />X
+            <input type="radio" name="symbol" value="o" />O
+        </form>
+    </div>
+
+    <!--  Winner Display  -->
+    <span id="winner"></span>
+
+    <!--  Board  -->
+    <div id="container">
+        <div class="square"></div>
+        <div class="square vertical"></div>
+        <div class="square"></div>
+
+        <div class="square horizontal"></div>
+        <div class="square horizontal vertical"></div>
+        <div class="square horizontal"></div>
+
+        <div class="square"></div>
+        <div class="square vertical"></div>
+        <div class="square"></div>
+    </div>
+
+    <!--  Reset Button  -->
+    <button id="reset">Reset</button>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
